@@ -45,7 +45,6 @@ jobs:
         git config pull.rebase true
         git add .
         git commit -m "update log" -a
-        git pull
     - name: Push log
       uses: ad-m/github-push-action@master
       with:
