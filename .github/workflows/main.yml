@@ -44,6 +44,7 @@ jobs:
         git config --global user.email "$EMAIL"
         git add .
         git commit -m "update log" -a
+        git pull
     - name: Push log
       uses: ad-m/github-push-action@master
       with:
